@@ -1,0 +1,610 @@
+##################################################################################################
+###################################### TV Show Collections #######################################
+##################################################################################################
+collections:
+######################################### TV Show Refresh ########################################
+  Refresh TV Show Metadata:
+    plex_search:
+      all:
+        episode_air_date: 7
+    sync_mode: append
+    item_refresh: true
+    build_collection: false
+################################### TV Show Holiday Collections ##################################
+  🇺🇸 Independence Day:
+    sort_title: "!000_🇺🇸 Independence Day"
+    summary: "The Independence Day movie and show collection offers a patriotic and thrilling selection perfect for celebrating the spirit of freedom and national pride. This collection includes inspiring tales of heroism, action-packed stories of defending liberty, and dramas that highlight the struggles and triumphs of individuals fighting for independence. TV shows often feature special Independence Day episodes that showcase festive celebrations, historical reflections, and community gatherings. This collection captures the essence of Independence Day, focusing on themes of courage, resilience, and the enduring quest for freedom, making it ideal for honoring the holiday with a sense of patriotism and unity."
+    url_poster: https://theposterdb.com/api/assets/499115
+    imdb_list:
+      - https://www.imdb.com/list/ls068664510/
+      - https://www.imdb.com/list/ls080925875/
+    schedule: range(06/29-07/09)
+    delete_not_scheduled: true
+    collection_mode: hide
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  🐰 Easter:
+    sort_title: "!000_🐰 Easter"
+    summary: "The Easter movie and show collection offers a delightful and inspiring selection perfect for celebrating the spring holiday. This collection features heartwarming tales that highlight themes of renewal, hope, and family togetherness. It includes animated stories and specials that bring joy to children with colorful characters and festive adventures, as well as dramas and comedies that explore the significance of Easter traditions and the spirit of the season. TV shows often have special Easter episodes that incorporate festive activities, family gatherings, and messages of hope and rebirth. This collection captures the essence of Easter, focusing on themes of new beginnings, joy, and the importance of family and faith."
+    url_poster: https://theposterdb.com/api/assets/60970
+    imdb_list:
+      - https://www.imdb.com/list/ls062665509/
+      - https://www.imdb.com/list/ls051733651/
+    schedule: range(03/25-04/05)
+    delete_not_scheduled: true
+    collection_mode: hide
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  💘 Valentines Day:
+    sort_title: "!000_💘 Valentines Day"
+    summary: The Valentine's Day movie and show collection offers a romantic and heartwarming selection perfect for celebrating love and relationships. This collection features romantic comedies that bring humor and joy to tales of love, heartfelt dramas that explore deep emotional connections, and enchanting stories that highlight the magic of romance. TV shows often contribute with special Valentine's Day episodes that showcase sweet moments, love confessions, and relationship milestones. This collection embodies the spirit of Valentine's Day, focusing on themes of love, passion, and the joy of being with someone special, making it ideal for cozying up and enjoying with a loved one."
+    url_poster: https://theposterdb.com/api/assets/223922
+    imdb_list:
+      - https://www.imdb.com/list/ls000094398/
+      - https://www.imdb.com/list/ls057783436/
+      - https://www.imdb.com/list/ls064427905/
+    trakt_list:
+      - https://trakt.tv/users/triadcool/lists/valentine
+    schedule: range(02/09-02/19)
+    delete_not_scheduled: true
+    collection_mode: hide
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  🦃 Thanksgiving:
+    sort_title: "!000_🦃 Thanksgiving"
+    summary: "The Thanksgiving movie and show collection offers a heartwarming and reflective selection that captures the spirit of gratitude and togetherness. This collection includes family dramas that highlight the joys and challenges of gathering with loved ones, comedies that bring humor to holiday mishaps, and heartfelt stories that emphasize the importance of connection and gratitude. TV shows often feature special Thanksgiving episodes that showcase festive meals, family traditions, and moments of reconciliation and celebration. This collection embodies the essence of Thanksgiving, focusing on themes of family, gratitude, and the bonds that bring people together during this special time of year."
+    url_poster: https://theposterdb.com/api/assets/499114
+    imdb_list:
+      - https://www.imdb.com/list/ls000835734/
+      - https://www.imdb.com/list/ls091597850/
+    schedule: range(11/15-11/30)
+    delete_not_scheduled: true
+    collection_mode: hide
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  🎃 Halloween:
+    sort_title: "!000_🎃 Halloween"
+    summary: "The Halloween movie and show collection offers a thrilling and spooky selection perfect for celebrating the eerie and supernatural aspects of the season. This collection features a variety of horror films and TV series that delve into ghostly encounters, supernatural events, and terrifying monsters. It includes psychological thrillers that keep viewers on edge, slasher films with suspenseful and shocking moments, and dark comedies that blend humor with horror. TV shows contribute with special Halloween episodes that add a festive and spooky touch to beloved series. This collection captures the essence of Halloween with its chilling atmospheres, suspenseful storytelling, and moments of fright, making it perfect for fans of all things creepy and macabre."
+    url_poster: https://theposterdb.com/api/assets/111218
+    imdb_list:
+      - https://www.imdb.com/list/ls023118929/
+      - https://www.imdb.com/list/ls000099714/
+    tmdb_collection:
+      - 91361 # Halloween Collection
+      - 8581 # A Nightmare on Elm Street Collection
+      - 1733 # The Mummy Collection
+      - 8091 # Alien Collection
+    tmdb_movie:
+      - 23437 # A Nightmare on Elm Street (2010)
+    trakt_list:
+      - https://trakt.tv/users/29zombies/lists/halloween
+      - https://trakt.tv/users/galacticboy/lists/not-so-spooky-halloween
+      - https://trakt.tv/users/triadcool/lists/halloween?sort=released,asc
+      - https://trakt.tv/users/evil-vin/lists/halloween-2021?sort=released,asc
+    schedule: range(10/01-10/31)
+    delete_not_scheduled: true
+    collection_mode: hide
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  🎄 Christmas:
+    sort_title: "!000_🎄 Christmas"
+    summary: "The Christmas movie and show collection brings together a heartwarming and festive selection perfect for the holiday season. This collection includes beloved classics like It's a Wonderful Life and A Christmas Carol, which capture the timeless spirit of Christmas. Family favorites such as Home Alone, Elf, and The Polar Express offer fun and magical adventures for all ages. Romantic comedies like Love Actually and The Holiday provide feel-good tales of love and connection. Animated specials like A Charlie Brown Christmas and Rudolph the Red-Nosed Reindeer bring nostalgic charm. TV shows also contribute with special holiday episodes, adding to the festive cheer. This collection celebrates themes of love, generosity, and togetherness, making it ideal for cozying up and enjoying the magic of Christmas."
+    url_poster: https://theposterdb.com/api/assets/69443
+    imdb_list:
+      - https://www.imdb.com/list/ls000096828/
+    trakt_list:
+      - https://trakt.tv/users/philrivers/lists/christmas-episodes?page=3&sort=title,asc
+    schedule: range(12/01-12/31)
+    delete_not_scheduled: true
+    collection_mode: hide
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  🎉 New Years:
+    sort_title: "!000_🎉 New Years"
+    summary: "The New Year's movie and show collection offers a festive and inspiring array of films and TV specials perfect for celebrating the turn of the year. This collection features classic holiday movies like New Year's Eve, which intertwines multiple romantic and comedic storylines set in New York City, and When Harry Met Sally, famous for its iconic New Year's Eve scene. Family-friendly options like Rudolph's Shiny New Year provide nostalgic fun, while action-packed films like Die Hard 2 offer a thrilling twist on holiday viewing. TV shows often feature New Year's themed episodes, adding to the festive atmosphere with memorable celebrations and resolutions. This collection captures the spirit of new beginnings, joy, and reflection, making it ideal for ringing in the New Year with entertainment that brings people together."
+    url_poster: https://theposterdb.com/api/assets/408570
+    imdb_list:
+      - https://www.imdb.com/list/ls066838460/
+    schedule: range(12/26-01/04)
+    delete_not_scheduled: true
+    collection_mode: hide
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+#################################### TV Show Chart Collections ###################################
+  Trending Shows:
+    sort_title: "!020_1_Trending Shows"
+    summary: "The current trending show collection highlights the most popular and talked-about television series captivating audiences today. These shows often feature complex characters, compelling storylines, and high production values, reflecting current societal themes and trends. With a blend of new hits and returning favorites, the trending collection showcases the diverse and evolving landscape of modern television."
+    url_poster: https://theposterdb.com/api/assets/259814
+    trakt_chart:
+      chart: trending
+      limit: 30
+    tmdb_trending_daily: 30
+    collection_mode: hide  
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+  Trending on Plex:
+    sort_title: "!020_2_Trending on Plex"      
+    summary: "Current trending movies and shows on Plex."
+    url_poster: https://theposterdb.com/api/assets/499113
+    tautulli_popular:
+      list_days: 30
+      list_size: 30
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync    
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+  IMDb Top 250:
+    sort_title: "!020_3_IMDB Top 250"      
+    summary: "The IMDb Top 250 movie and show collection is a dynamic list of the highest-rated films and TV series as voted by IMDb users. This prestigious collection features a diverse array of genres, time periods, and cultural backgrounds, showcasing some of the most acclaimed and influential works in cinematic and television history. Updated regularly, the list reflects the evolving tastes and preferences of a global audience, celebrating storytelling excellence, powerful performances, and innovative filmmaking. The IMDb Top 250 is a go-to guide for anyone seeking to experience the pinnacle of visual storytelling."
+    url_poster: https://theposterdb.com/api/assets/499112
+    imdb_chart: top_shows
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync    
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+################################## TV Show Universe Collections ##################################
+  DC Universe:
+    sort_title: "!040_DC Universe"
+    summary: "The DC Universe movie and show collection, produced by DC Films and Warner Bros., features a pantheon of iconic superheroes based on DC Comics. The film series began with Man of Steel (2013), introducing Henry Cavill as Superman, and expanded with Batman v Superman: Dawn of Justice (2016) and the ensemble film Justice League (2017), bringing together heroes like Batman, Wonder Woman, Aquaman, The Flash, and Cyborg. Standalone films like Wonder Woman (2017), Aquaman (2018), and Shazam! (2019) delve into individual origins and adventures. The universe also includes critically acclaimed animated series such as Batman: The Animated Series, and live-action shows like Arrow, The Flash, and Titans, which explore the broader DC multiverse. Known for its darker tone and complex characters, the DC Universe offers a rich blend of mythic storytelling and superhero action."
+    url_poster: https://theposterdb.com/api/assets/499096
+    imdb_list: https://www.imdb.com/list/ls538267100
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Marvel Universe:
+    sort_title: "!040_Marvel Universe"
+    summary: "The Marvel Universe movie and show collection, primarily produced by Marvel Studios, encompasses a vast and interconnected world of superheroes based on Marvel Comics. It all started with Iron Man (2008), which introduced audiences to Tony Stark, and expanded into a sprawling narrative that includes iconic characters such as Captain America, Thor, the Hulk, Black Widow, and Spider-Man. The Infinity Saga, comprising films like The Avengers (2012), Guardians of the Galaxy (2014), and culminating in Avengers: Endgame (2019), follows the heroes' battle against the cosmic villain Thanos. The Marvel Cinematic Universe (MCU) also extends to television with series such as Agents of S.H.I.E.L.D., WandaVision, Loki, and The Falcon and the Winter Soldier, further exploring character backstories and new adventures. Renowned for its blend of action, humor, and emotional depth, the Marvel Universe continues to captivate global audiences with its dynamic storytelling and richly developed characters."
+    url_poster: https://theposterdb.com/api/assets/499095
+    imdb_list: https://www.imdb.com/list/ls031310794 # Marvel Universe in chronological order
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+#################################### TV Show Main Collections ####################################
+  Star Trek:
+    sort_title: "!055_Star Trek"
+    summary: "The Star Trek movie and show collection is a seminal sci-fi franchise that began with the original television series created by Gene Roddenberry in 1966, following the adventures of the starship USS Enterprise and its crew, led by Captain James T. Kirk and Mr. Spock. The franchise expanded with numerous TV series, including The Next Generation, Deep Space Nine, Voyager, Enterprise, Discovery, Picard, and Strange New Worlds, each exploring new aspects of the Star Trek universe. The movie collection, starting with Star Trek: The Motion Picture (1979), includes films featuring the original cast, such as The Wrath of Khan and The Undiscovered Country, as well as The Next Generation crew in films like First Contact. The series was rebooted with J.J. Abrams' Star Trek (2009), introducing a new cast in an alternate timeline. Known for its optimistic vision of the future, exploration of complex social issues, and iconic characters, Star Trek has become a cornerstone of science fiction and a cultural phenomenon."
+    url_poster: https://theposterdb.com/api/assets/499094
+    imdb_list: https://www.imdb.com/list/ls003269814
+    collection_mode: hide
+    collection_order: release
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Star Wars:
+    sort_title: "!055_Star Wars"
+    summary: "The Star Wars movie and show collection, created by George Lucas, is a sprawling space opera saga set in a galaxy far, far away. It began with the original trilogy, starting with Star Wars: Episode IV - A New Hope (1977), which follows Luke Skywalker, Princess Leia, and Han Solo as they battle the evil Galactic Empire. The story expands with the prequel trilogy, exploring the rise of Darth Vader, and the sequel trilogy, continuing the battle against the dark side with new heroes like Rey and Finn. Spin-off films like Rogue One and Solo add depth to the lore. The universe further extends to television with animated series such as The Clone Wars and Rebels, and live-action shows like The Mandalorian, which explores the post-Empire galaxy. Known for its epic battles, rich mythology, and timeless themes of hope and redemption, Star Wars remains a cultural phenomenon and a cornerstone of sci-fi storytelling."
+    url_poster: https://theposterdb.com/api/assets/499093
+    imdb_list: https://www.imdb.com/list/ls507784781 # Star Wars Universe in chronological order
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  TMNT:
+    sort_title: "!055_TMNT"
+    summary: "The Teenage Mutant Ninja Turtles movie and show collection follows the adventures of four mutated turtle brothers—Leonardo, Michelangelo, Donatello, and Raphael—trained in ninjitsu by their rat sensei, Splinter. The franchise began with the 1987 animated TV series, which introduced audiences to their fight against the evil Shredder and his Foot Clan. This was followed by a live-action film trilogy starting with Teenage Mutant Ninja Turtles (1990), multiple animated series including the 2003 and 2012 reboots, and the darker live-action films produced by Michael Bay in 2014 and 2016. The series also includes the recent animated film, Teenage Mutant Ninja Turtles: Mutant Mayhem (2023). Known for its blend of action, humor, and themes of family and teamwork, the franchise has become a cultural icon spanning multiple generations."
+    url_poster: https://theposterdb.com/api/assets/499092
+    imdb_list: https://www.imdb.com/list/ls058150556
+    collection_mode: hide
+    collection_order: release
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Transformers:
+    sort_title: "!055_Transformers"
+    summary: "The Transformers movie and show collection is a sci-fi action franchise centered on the battle between the heroic Autobots and the villainous Decepticons, two factions of transforming robots from the planet Cybertron. The franchise began with the animated TV series in the 1980s, which became a cultural phenomenon and led to the animated film The Transformers: The Movie (1986). The series was revitalized with Michael Bay's live-action films starting with Transformers (2007), featuring Shia LaBeouf and later Mark Wahlberg, which brought cutting-edge special effects and epic battles to the big screen. Spin-offs and reboots include Bumblebee (2018), a more character-focused prequel, and various animated series such as Transformers: Prime and the recent War for Cybertron trilogy on Netflix. Known for its spectacular action sequences, complex lore, and enduring appeal, Transformers continues to captivate audiences around the world."
+    url_poster: https://theposterdb.com/api/assets/102672
+    imdb_list: https://www.imdb.com/list/ls058280509
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  X-Men:
+    sort_title: "!055_X-Men"
+    summary: "The X-Men movie and show collection, based on Marvel Comics' superhero team created by Stan Lee and Jack Kirby, explores the lives and struggles of mutants, individuals born with extraordinary abilities. The franchise begins with X-Men (2000), where Professor Charles Xavier and his team of mutants, including Wolverine, Cyclops, and Storm, fight for peaceful coexistence with humanity while facing threats from Magneto and his Brotherhood. The series includes notable sequels like X2 (2003), X-Men: The Last Stand (2006), and prequels like X-Men: First Class (2011), which delves into the origins of the team. Spin-offs such as the Wolverine trilogy and Deadpool films add depth and humor to the universe. The TV series, including Legion and The Gifted, explore different aspects of mutant life and the ongoing struggle for acceptance. Known for its action-packed sequences, complex characters, and themes of prejudice and acceptance, the X-Men series remains a cornerstone of superhero cinema and television."
+    url_poster: https://theposterdb.com/api/assets/499091
+    imdb_list: https://www.imdb.com/list/ls064799963
+    tmdb_show: 138502 # X-Men '97
+    collection_mode: hide
+    collection_order: release
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+#################################### TV Show Genre Collections ###################################
+  Action:
+    sort_title: "!060_Action"
+    summary: "The action genre movie and show collection delivers high-energy entertainment with intense sequences and heroic feats. This collection features iconic films like Die Hard, Mad Max: Fury Road, and The Dark Knight, with standout performances from actors like Bruce Willis, Charlize Theron, and Christian Bale. Directors such as Michael Bay and Christopher Nolan have made significant contributions to the genre. On television, it includes popular shows like 24, Daredevil, and The Mandalorian, offering thrilling plots, dynamic characters, and explosive action scenes. This collection highlights a blend of adrenaline-pumping moments and compelling narratives, capturing the essence of action-packed storytelling."
+    url_poster: https://theposterdb.com/api/assets/499102
+    plex_search:
+      genre: Action
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Adventure:
+    sort_title: "!060_Adventure"
+    summary: "The adventure genre movie and show collection offers thrilling tales of exploration and excitement, capturing the spirit of daring escapades. This collection features iconic films like Indiana Jones, Pirates of the Caribbean, and Jurassic Park, with standout performances from actors like Harrison Ford, Johnny Depp, and Sam Neill. Directors such as Steven Spielberg and Gore Verbinski have significantly shaped the genre. On television, it includes popular shows like Avatar: The Last Airbender, The Mandalorian, and Doctor Who, presenting epic journeys, fantastical worlds, and heroic quests. This collection highlights a mix of action, discovery, and imaginative storytelling, embodying the essence of adventure."
+    url_poster: https://theposterdb.com/api/assets/499098
+    plex_search:
+      genre: Adventure
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Comedy:
+    sort_title: "!060_Comedy"
+    summary: "The comedy genre movie and show collection delivers laughter and entertainment through witty dialogue and humorous situations. This collection features beloved films like Groundhog Day, Superbad, and Anchorman, with standout performances from actors like Bill Murray, Jonah Hill, and Will Ferrell. Directors such as Judd Apatow and Wes Anderson have made significant contributions to the genre. On television, it includes popular shows like Friends, The Office, and Parks and Recreation, offering a mix of sitcoms, mockumentaries, and ensemble casts. This collection highlights a variety of comedic styles, from slapstick to satire, providing joy and amusement to audiences."
+    url_poster: https://theposterdb.com/api/assets/499103
+    plex_search:
+      genre: Comedy
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Documentary:
+    sort_title: "!060_Documentary"
+    summary: "The documentary genre movie and show collection presents real-life stories and factual content, offering insightful and educational experiences. This collection features acclaimed films like March of the Penguins, The Social Dilemma, and 13th, with powerful narratives and impactful messages. Directors such as Ken Burns and Alex Gibney have significantly contributed to the genre. On television, it includes popular series like Planet Earth, Making a Murderer, and Tiger King, providing in-depth looks at nature, crime, and unique personalities. This collection highlights a blend of investigative journalism, stunning visuals, and compelling storytelling, capturing the essence of the documentary genre."
+    url_poster: https://theposterdb.com/api/assets/499104
+    plex_search:
+      genre: Documentary
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Drama:
+    sort_title: "!060_Drama"
+    summary: "The drama genre movie and show collection delves into deep emotional narratives and complex character studies. This collection features acclaimed films like Forrest Gump, The Shawshank Redemption, and A Beautiful Mind, with standout performances from actors like Tom Hanks, Morgan Freeman, and Russell Crowe. Directors such as Steven Spielberg and Ron Howard have made notable contributions to the genre. On television, it includes compelling shows like The Sopranos, Breaking Bad, and This Is Us, offering intense storytelling, rich character development, and thought-provoking themes. This collection highlights the human experience, exploring relationships, personal struggles, and triumphs."
+    url_poster: https://theposterdb.com/api/assets/499105
+    plex_search:
+      genre: Drama
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Family:
+    sort_title: "!060_Family"
+    summary: "The family genre movie and show collection offers heartwarming and entertaining stories that appeal to all ages. This collection features beloved films like The Lion King, Toy Story, and Finding Nemo, with memorable performances from voice actors like Tom Hanks, Ellen DeGeneres, and James Earl Jones. Directors such as John Lasseter and Chris Columbus have significantly shaped the genre. On television, it includes popular shows like Full House, Avatar: The Last Airbender, and Bluey, presenting a mix of animated adventures, sitcoms, and educational content. This collection highlights themes of love, friendship, and growth, providing enjoyable and meaningful experiences for families."
+    url_poster: https://theposterdb.com/api/assets/499106
+    plex_search:
+      genre: Action
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Fantasy:
+    sort_title: "!060_Fantasy"
+    summary: "The fantasy genre movie and show collection transports viewers to magical worlds and extraordinary adventures, filled with mythical creatures and epic quests. This collection features iconic films like The Lord of the Rings, Harry Potter, and Pan's Labyrinth, with standout performances from actors like Elijah Wood, Daniel Radcliffe, and Ivana Baquero. Directors such as Peter Jackson and Guillermo del Toro have made significant contributions to the genre. On television, it includes beloved shows like Game of Thrones, The Witcher, and Avatar: The Last Airbender, offering rich lore, complex characters, and enchanting landscapes. This collection highlights a blend of heroism, magic, and imaginative storytelling, capturing the essence of fantasy."
+    url_poster: https://theposterdb.com/api/assets/499099
+    plex_search:
+      genre: Fantasy
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  History:
+    sort_title: "!060_History"
+    summary: "The history genre movie and show collection brings past events to life, offering rich and immersive portrayals of significant moments and figures. This collection features acclaimed films like Schindler's List, Braveheart, and 12 Years a Slave, with powerful performances from actors like Liam Neeson, Mel Gibson, and Chiwetel Ejiofor. Directors such as Steven Spielberg and Ridley Scott have left a lasting impact on the genre. On television, it includes compelling shows like The Crown, Band of Brothers, and Vikings, providing detailed depictions of historical periods, wars, and royalty. This collection highlights a mix of epic narratives, accurate portrayals, and dramatic storytelling, capturing the essence of history."
+    url_poster: https://theposterdb.com/api/assets/499107
+    plex_search:
+      genre: History
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Horror:
+    sort_title: "!060_Horror"
+    summary: "The horror genre movie and show collection plunges into the realm of fear and the supernatural, offering spine-chilling experiences and dark tales. This collection features iconic films like The Exorcist, A Nightmare on Elm Street, and Get Out, with standout performances from actors like Linda Blair, Robert Englund, and Daniel Kaluuya. Directors such as John Carpenter and Jordan Peele have made significant contributions to the genre. On television, it includes terrifying shows like American Horror Story, The Haunting of Hill House, and Stranger Things, blending psychological horror, paranormal activity, and eerie atmospheres. This collection highlights a mix of classic scares, innovative storytelling, and unsettling themes, embodying the essence of horror."
+    url_poster: https://theposterdb.com/api/assets/499108
+    plex_search:
+      genre: Horror
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Mystery:
+    sort_title: "!060_Mystery"
+    summary: "The mystery genre movie and show collection delves into the world of suspense and intrigue, captivating audiences with puzzling plots and unexpected twists. This collection features iconic films like Gone Girl, The Girl with the Dragon Tattoo, and Sherlock Holmes, with standout performances from actors like Ben Affleck, Rooney Mara, and Robert Downey Jr. Directors such as David Fincher and Alfred Hitchcock have left a significant mark on the genre. On television, it includes gripping shows like Sherlock, True Detective, and Twin Peaks, offering a mix of complex investigations, psychological depth, and atmospheric storytelling. This collection highlights the thrill of uncovering secrets, solving crimes, and exploring the unknown."
+    url_poster: https://theposterdb.com/api/assets/499100
+    plex_search:
+      genre: Mystery
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Romance:
+    sort_title: "!060_Romance"
+    summary: "The romance genre movie and show collection captures the essence of love and emotional connections, offering heartwarming and poignant stories. This collection features beloved films like Pride and Prejudice, The Notebook, and La La Land, with memorable performances from actors like Keira Knightley, Ryan Gosling, and Emma Stone. Directors such as Richard Linklater and Nora Ephron have significantly shaped the genre. On television, it includes popular shows like Outlander, Bridgerton, and Jane the Virgin, presenting a mix of historical romance, contemporary love stories, and whimsical narratives. This collection highlights the power of love, the complexities of relationships, and the enduring appeal of romantic storytelling."
+    url_poster: https://theposterdb.com/api/assets/499109
+    plex_search:
+      genre: Romance
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Science Fiction:
+    sort_title: "!060_Science Fiction"
+    summary: "The science fiction genre movie and show collection explores imaginative and futuristic worlds, blending advanced technology with profound themes. This collection features iconic films like Blade Runner, The Matrix, and Interstellar, with standout performances from actors like Harrison Ford, Keanu Reeves, and Matthew McConaughey. Directors such as Ridley Scott and Christopher Nolan have made significant contributions to the genre. On television, it includes groundbreaking shows like Star Trek, Black Mirror, and Stranger Things, offering a mix of speculative fiction, dystopian narratives, and thought-provoking scenarios. This collection highlights a blend of cutting-edge visuals, innovative storytelling, and philosophical questions, capturing the essence of science fiction."
+    url_poster: https://theposterdb.com/api/assets/499110
+    plex_search:
+      genre: Science Fiction
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Thriller:
+    sort_title: "!060_Thriller"
+    summary: "The thriller genre movie and show collection offers a gripping and suspenseful experience filled with tension and unexpected twists. This collection features iconic films like Se7en, The Silence of the Lambs, and Inception, with standout performances from actors like Brad Pitt, Jodie Foster, and Leonardo DiCaprio. Directors such as Alfred Hitchcock and Christopher Nolan are renowned for their contributions to the genre. On television, it includes captivating shows like Breaking Bad, True Detective, and Stranger Things, blending psychological depth, crime, and mystery. This collection highlights a mix of psychological intrigue, intense action, and complex characters, keeping viewers on the edge of their seats."
+    url_poster: https://theposterdb.com/api/assets/499101
+    plex_search:
+      genre: Thriller
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  War:
+    sort_title: "!060_War"
+    summary: "The war genre movie and show collection delves into the intense and poignant stories of conflict and heroism. This collection features acclaimed films like Saving Private Ryan, Apocalypse Now, and 1917, with powerful performances from actors like Tom Hanks, Martin Sheen, and George MacKay. Directors such as Steven Spielberg and Francis Ford Coppola have significantly contributed to the genre. On television, it includes impactful shows like Band of Brothers, MASH*, and The Pacific, offering a mix of dramatic battles, personal struggles, and historical perspectives. This collection highlights the harrowing realities of war, the bravery of soldiers, and the profound impact of these conflicts on humanity."
+    url_poster: https://theposterdb.com/api/assets/499111
+    plex_search:
+      genre: War
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Western:
+    sort_title: "!060_Western"
+    summary: "The western genre movie and show collection captures the rugged spirit and adventurous tales of the American frontier. This collection features classic films like The Good, the Bad and the Ugly, True Grit, and Unforgiven, showcasing iconic performances from actors like Clint Eastwood, John Wayne, and Jeff Bridges. Directors such as Sergio Leone and John Ford have left a lasting impact on the genre. On television, it includes timeless shows like Bonanza, Gunsmoke, and Deadwood, reflecting the genre's enduring popularity and evolving storytelling styles. This collection highlights a mix of dramatic gunfights, sweeping landscapes, and complex characters, embodying the essence of the western genre."
+    url_poster: https://theposterdb.com/api/assets/499097
+    plex_search:
+      genre: Western
+    collection_mode: hide
+    smart_label: originally_available.desc
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+#################################### TV Show Decade Collections ###################################
+  Best of 1930s:
+    sort_title: "!100_Best of 1930s"
+    summary: "The 1930s decade movie and show collection captures the essence of Hollywood's Golden Age, featuring iconic films and pioneering television shows. This era is marked by the transition from silent films to talkies, with classics like Gone with the Wind, The Wizard of Oz, and King Kong. The collection also includes the early works of legends like Charlie Chaplin, Bette Davis, and Clark Gable. On the television front, it highlights the experimental broadcasts that laid the foundation for future TV programming. The 1930s collection showcases the artistic and technological advancements that defined an era of innovation and glamour in entertainment."
+    url_poster: https://theposterdb.com/api/assets/425256
+    imdb_search:
+      type: tv_series
+      release.after: 1930-01-01
+      release.before: 1939-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 1940s:
+    sort_title: "!100_Best of 1940s"
+    summary: "The 1940s decade movie and show collection reflects a time of significant historical and cultural impact, dominated by World War II and its aftermath. This era features classic films like Casablanca, Citizen Kane, and It's a Wonderful Life, which blend romance, drama, and groundbreaking storytelling. The collection includes works from directors such as Alfred Hitchcock and Orson Welles, and stars like Humphrey Bogart, Ingrid Bergman, and James Stewart. On the television side, it captures the early years of TV programming, with popular variety shows and early sitcoms. The 1940s collection highlights a period of resilience, innovation, and timeless cinematic artistry."
+    url_poster: https://theposterdb.com/api/assets/425257
+    imdb_search:
+      type: tv_series
+      release.after: 1940-01-01
+      release.before: 1949-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 1950s:
+    sort_title: "!100_Best of 1950s"
+    summary: "The 1950s decade movie and show collection embodies a period of post-war prosperity and the dawn of the television era. This collection features iconic films such as Singin' in the Rain, Rebel Without a Cause, and Some Like It Hot, showcasing stars like Marilyn Monroe, James Dean, and Audrey Hepburn. Directors like Alfred Hitchcock and Billy Wilder pushed the boundaries of storytelling and genre. On television, the 1950s saw the rise of classic shows like I Love Lucy, The Twilight Zone, and Leave It to Beaver, which became cultural touchstones. The collection highlights the blend of nostalgia, innovation, and the burgeoning influence of TV on popular culture."
+    url_poster: https://theposterdb.com/api/assets/425258
+    imdb_search:
+      type: tv_series
+      release.after: 1950-01-01
+      release.before: 1959-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 1960s:
+    sort_title: "!100_Best of 1960s"
+    summary: "The 1960s decade movie and show collection captures a time of cultural revolution and cinematic innovation. This era features groundbreaking films like Psycho, 2001: A Space Odyssey, and The Graduate, with standout performances from stars like Audrey Hepburn, Paul Newman, and Elizabeth Taylor. Directors such as Stanley Kubrick and Alfred Hitchcock pushed the boundaries of storytelling and visual effects. On television, the 1960s introduced iconic shows like Star Trek, The Andy Griffith Show, and Bewitched, reflecting the era's social changes and technological advancements. The collection highlights a dynamic period of creativity, social commentary, and the evolution of both film and television."
+    url_poster: https://theposterdb.com/api/assets/425259
+    imdb_search:
+      type: tv_series
+      release.after: 1960-01-01
+      release.before: 1969-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 1970s:
+    sort_title: "!100_Best of 1970s"
+    summary: "The 1970s decade movie and show collection showcases a period of bold storytelling and groundbreaking creativity. This era features classic films like The Godfather, Star Wars, and Jaws, with memorable performances from actors like Al Pacino, Meryl Streep, and Robert De Niro. Directors such as Steven Spielberg and Martin Scorsese emerged as influential figures. On television, the 1970s introduced iconic shows like MASH*, All in the Family, and The Mary Tyler Moore Show, reflecting the decade's cultural shifts and social issues. The collection highlights a dynamic era of cinematic innovation, diverse genres, and influential TV programming."
+    url_poster: https://theposterdb.com/api/assets/425260
+    imdb_search:
+      type: tv_series
+      release.after: 1970-01-01
+      release.before: 1979-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 1980s:
+    sort_title: "!100_Best of 1980s"
+    summary: "The 1980s decade movie and show collection captures a vibrant era of blockbuster films and beloved television series. This period features iconic movies like E.T. the Extra-Terrestrial, Back to the Future, and The Breakfast Club, with standout performances from stars like Harrison Ford, Molly Ringwald, and Tom Cruise. Directors such as Steven Spielberg and John Hughes left a lasting impact on popular culture. On television, the 1980s introduced classic shows like The Cosby Show, Miami Vice, and Cheers, reflecting the decade's trends and styles. The collection highlights a dynamic mix of adventure, comedy, and drama, showcasing the enduring appeal of 1980s entertainment."
+    url_poster: https://theposterdb.com/api/assets/425261
+    imdb_search:
+      type: tv_series
+      release.after: 1980-01-01
+      release.before: 1989-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 1990s:
+    sort_title: "!100_Best of 1990s"
+    summary: "The 1990s decade movie and show collection highlights a transformative period in entertainment, marked by diverse genres and groundbreaking storytelling. This era features iconic films like Titanic, The Matrix, and Pulp Fiction, with memorable performances from stars like Leonardo DiCaprio, Julia Roberts, and Tom Hanks. Directors such as Quentin Tarantino and Steven Spielberg continued to shape the industry. On television, the 1990s introduced beloved shows like Friends, The X-Files, and Buffy the Vampire Slayer, reflecting the decade's cultural shifts and technological advancements. This collection showcases a dynamic blend of romance, action, and supernatural themes, capturing the essence of 1990s entertainment."
+    url_poster: https://theposterdb.com/api/assets/425262
+    imdb_search:
+      type: tv_series
+      release.after: 1990-01-01
+      release.before: 1999-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 2000s:
+    sort_title: "!100_Best of 2000s"
+    summary: "The 2000s decade movie and show collection showcases a period of technological advancements and diverse storytelling. This era features iconic films like The Lord of the Rings trilogy, Gladiator, and The Dark Knight, with standout performances from actors like Russell Crowe, Heath Ledger, and Angelina Jolie. Directors such as Peter Jackson and Christopher Nolan pushed cinematic boundaries. On television, the 2000s introduced groundbreaking shows like The Sopranos, Lost, and Breaking Bad, reflecting the decade's innovative narrative techniques and complex characters. This collection highlights a mix of epic fantasy, gripping dramas, and memorable characters, capturing the dynamic spirit of 2000s entertainment."
+    url_poster: https://theposterdb.com/api/assets/425263
+    imdb_search:
+      type: tv_series
+      release.after: 2000-01-01
+      release.before: 2009-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 2010s:
+    sort_title: "!100_Best of 2010s"
+    summary: "The 2010s decade movie and show collection captures a period of significant innovation and cultural impact in entertainment. This era features iconic films like Inception, Black Panther, and The Avengers, with standout performances from actors like Leonardo DiCaprio, Chadwick Boseman, and Jennifer Lawrence. Directors such as Christopher Nolan and Greta Gerwig made notable contributions. On television, the 2010s saw the rise of critically acclaimed shows like Game of Thrones, Stranger Things, and Breaking Bad, reflecting the decade's penchant for complex narratives and high production values. This collection highlights a blend of action, fantasy, and character-driven stories, showcasing the evolving landscape of 2010s entertainment."
+    url_poster: https://theposterdb.com/api/assets/425264
+    imdb_search:
+      type: tv_series
+      release.after: 2010-01-01
+      release.before: 2019-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Best of 2020s:
+    sort_title: "!100_Best of 2020s"
+    summary: "The 2020s decade movie and show collection captures a period of rapid change and innovation in entertainment. This era features notable films like Parasite, Dune, and Spider-Man: No Way Home, with remarkable performances from actors like Zendaya, Timothée Chalamet, and Florence Pugh. Directors such as Denis Villeneuve and Bong Joon-ho have made significant impacts. On television, the 2020s introduced popular shows like The Mandalorian, Bridgerton, and The Queen's Gambit, reflecting a trend towards diverse storytelling and streaming platforms. This collection highlights a mix of science fiction, fantasy, and dramatic series, showcasing the dynamic and evolving nature of 2020s entertainment."
+    url_poster: https://theposterdb.com/api/assets/425265
+    imdb_search:
+      type: tv_series
+      release.after: 2020-01-01
+      release.before: 2029-12-31
+      votes.gte: 10000
+      sort_by: rating.desc
+      limit: 150
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false

@@ -1,0 +1,23 @@
+version: "3"
+services:
+  kometa:
+    image: lscr.io/linuxserver/kometa:latest
+    container_name: kometa
+    restart: unless-stopped    
+    environment:
+      - TZ=America/Chicago
+      - PUID=1000
+      - PGID=1000
+      - KOMETA_CONFIG=/config/config.yml
+      - KOMETA_TIME=04:15
+      - KOMETA_RUN=False
+      - KOMETA_TEST=False
+      - KOMETA_NO_MISSING=False     
+    volumes:      
+      - /containers/kometa/config:/config      
+    networks:
+      - media_mgmt_network
+
+networks:
+  media_mgmt_network:
+    external: true
