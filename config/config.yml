@@ -1,0 +1,198 @@
+libraries:
+##################################################################################################
+######################################## Movie Library(s) ########################################
+##################################################################################################
+  Movies:                                           # Must match a library name in your Plex
+    report_path: config/reports/movie_report.yml    # Sets the path for the missing items in the library
+    remove_overlays: false                          # Set to true if you want to remove overlays
+    reapply_overlays: false                         # Forces overlays to be re-applied and can cause image bulk, typically leave this set to false
+    #reset_overlays: tmdb                            # Resets the poster to default poster from tmdb
+    collection_files:                               # Files that contain collections and/or dynamic collection attributes
+    - file: config/metadata/movies.yml
+  # Library Overlay Configuration
+    overlay_files:
+    - default: resolution
+      template_variables:
+        use_1080p: false
+        use_720p: false
+        use_576p: false
+        use_480p: false
+        file_480p: config/assets/overlays/resolution/dvd.png
+        use_edition: false
+        back_color: "#000000"
+        back_width: 1920
+        back_height: 90
+        horizontal_align: center
+        vertical_offset: 0
+  # Library Settings Configuration
+    settings:
+      asset_directory: config/assets
+      prioritize_assets: true                       # The asset_directory contains folders per media item with respective posters
+  # Library Operations Configuration
+    operations:
+      - schedule: daily
+        split_duplicates: false                       # Splits all duplicate movies/shows found in this library
+        assets_for_all: false                         # Search in assets for images for every item in your library
+        delete_collections:
+          configured: false                           # False - Collection must be an Unconfigured Collection to be deleted (collection is not in the config file of the specific Kometa run).
+          managed: false                              # False - Collection must be an Unmanaged Collection to be deleted (the collection does not have the Kometa label)
+          less: 99999                                 # Effectively all collections regardless of the number of items in the collection
+      - schedule: weekly(Sunday)
+        mass_user_rating_update: mdb_tomatoes         # Update user ratings with mdb_tomatoes
+        mass_critic_rating_update: imdb               # Update critic ratings with imdb
+        mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+        mass_genre_update:
+        - tmdb                                        # Update all genres from tmdb
+        - imdb                                        # Update all genres from imdb if not from tmdb
+        - tvdb                                        # Update all genres from tvdb if not from imdb
+        mass_content_rating_update:
+        - mdb_commonsense                             # Changes content rating to "1", "2" etc. to specify appropriate age
+        - omdb                                        # Changes content rating from omdb if not found on mdb_commonsense
+        mass_studio_update:
+        - tmdb                                        # Update all studios from tmdb
+        mass_originally_available_update:
+        - tmdb                                        # Update all original available date from tmdb
+        - tvdb                                        # Update all original available date from tvdb if not from tmdb
+        - omdb                                        # Update all original available date from omdb(imdb) if not from tvdb
+        mass_imdb_parental_labels: none               # Apply all parental labels with a value of None, Mild, Moderate, or Severe to match IMDb parental guide
+        # mass_poster_update: tmdb                      # Resets posters to tmdb, plex, locked, unlock which is useful to remove all overlays when running with -r -op
+
+
+##################################################################################################
+####################################### TV Show Library(s) #######################################
+##################################################################################################
+  TV Shows:                                         # Must match a library name in your Plex
+    report_path: config/reports/show_report.yml     # Sets the path for the missing items in the library
+    remove_overlays: false                          # Set to true if you want to remove overlays
+    reapply_overlays: false                         # Forces overlays to be re-applied and can cause image bulk, typically leave this set to false
+    #reset_overlays: tmdb                            # Resets the poster to default poster from tmdb
+    collection_files:
+    - file: config/metadata/shows.yml
+  # Library Overlay Configuration
+    overlay_files:
+    - default: status
+      template_variables:
+        font_size: 70
+        font: Roboto-Medium.ttf
+        text_airing: "A I R I N G"
+        text_returning: "R E T U R N I N G"
+        text_canceled: "C A N C E L E D"
+        text_ended: "E N D E D"
+        back_color: "#00000097"
+        back_width: 1920
+        back_height: 105
+        horizontal_align: center
+        vertical_align: bottom
+        vertical_offset: 0
+  # Library Settings Configuration
+    settings:
+      asset_directory: config/assets
+      prioritize_assets: true                       # The asset_directory contains folders per media item with respective posters
+  # Library Operations Configuration
+    operations:
+      - schedule: daily
+        split_duplicates: false                       # Splits all duplicate movies/shows found in this library
+        assets_for_all: false                         # Search in assets for images for every item in your library
+        delete_collections:
+          configured: false                           # False - Collection must be an Unconfigured Collection to be deleted (collection is not in the config file of the specific Kometa run).
+          managed: false                              # False - Collection must be an Unmanaged Collection to be deleted (the collection does not have the Kometa label)
+          less: 99999                                 # Effectively all collections regardless of the number of items in the collection
+      - schedule: weekly(Sunday)
+        mass_user_rating_update: mdb_tomatoes         # Update user ratings with mdb_tomatoes
+        mass_critic_rating_update: imdb               # Update critic ratings with imdb
+        mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+        mass_genre_update:
+        - tmdb                                        # Update all genres from tmdb
+        - imdb                                        # Update all genres from imdb if not from tmdb
+        - tvdb                                        # Update all genres from tvdb if not from imdb
+        mass_content_rating_update:
+        - mdb_commonsense                             # Changes content rating to "1", "2" etc. to specify appropriate age
+        - omdb                                        # Changes content rating from omdb if not found on mdb_commonsense
+        mass_studio_update:
+        - tmdb                                        # Update all studios from tmdb
+        mass_originally_available_update:
+        - tmdb                                        # Update all original available date from tmdb
+        - tvdb                                        # Update all original available date from tvdb if not from tmdb
+        - omdb                                        # Update all original available date from omdb(imdb) if not from tvdb
+        mass_imdb_parental_labels: none               # Apply all parental labels with a value of None, Mild, Moderate, or Severe to match IMDb parental guide
+        # mass_poster_update: tmdb                      # Resets posters to tmdb, plex, locked, unlock which is useful to remove all overlays when running with -r -op
+
+  
+##################################################################################################
+######################################## Global Settings #########################################
+##################################################################################################
+settings:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays  
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 3
+  create_asset_folders: false
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: sync
+  minimum_items: 1
+  default_collection_order:
+  delete_below_minimum: false
+  delete_not_scheduled: false
+  run_again_delay: 5
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_unconfigured: true
+  show_filtered: false
+  show_options: true
+  show_missing: true
+  show_missing_assets: true
+  save_report: true  
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_users: all
+  playlist_exclude_users:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality: 75
+
+##################################################################################################
+######################################## API Integrations ########################################
+##################################################################################################
+plex:
+  url: https://plex.domain.com
+  token: "Plex Token"
+  timeout: 60
+  db_cache:
+  clean_bundles: true
+  empty_trash: true
+  optimize: true  
+  verify_ssl:
+tmdb:
+  apikey: #########################
+  language: en
+  cache_expiration: 60
+  region:
+mdblist:
+  apikey: #########################
+  cache_expiration: 60
+omdb:
+  apikey: ####################
+  cache_expiration: 60
+tautulli:
+  url: https://tautulli.domain.com
+  apikey: ####################
+trakt:
+  client_id: ####################
+  client_secret: ####################
+  pin:

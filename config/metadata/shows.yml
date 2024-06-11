@@ -200,6 +200,28 @@ collections:
     visible_home: false
     visible_shared: false
 #################################### TV Show Main Collections ####################################
+  Addams Family:
+    sort_title: "!055_Addams Family"
+    summary: "The Addams Family, created by cartoonist Charles Addams, is a beloved fictional family known for their macabre and eccentric lifestyle. First appearing in The New Yorker in 1938, the family includes Gomez, Morticia, Wednesday, Pugsley, Uncle Fester, Grandmama, Lurch, Thing, and Cousin Itt. Their dark humor and gothic charm have been adapted into various media, including the iconic 1960s TV series, multiple animated series, a 1990s live-action film franchise, and modern animated films. The Addams Family has become a cultural icon, celebrated for its satirical take on the traditional American family and its enduring appeal across generations."
+    url_poster: https://theposterdb.com/api/assets/499545
+    tmdb_show: 119051 # Wednesday (2022)
+    collection_mode: hide
+    collection_order: release
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+  Stargate:
+    sort_title: "!055_Stargate"
+    summary: "The Stargate movie and show collection, originating from the 1994 film Stargate directed by Roland Emmerich, explores the adventures of using an ancient device that creates wormholes to other planets. The original film stars Kurt Russell as Colonel Jack O'Neil and James Spader as Dr. Daniel Jackson, who journey to a distant world and confront an alien posing as the god Ra. This spawned the highly successful TV series Stargate SG-1 (1997-2007), which follows a team exploring new worlds and defending Earth from alien threats. The franchise expanded with Stargate Atlantis (2004-2009), Stargate Universe (2009-2011), and several direct-to-video films like Stargate: The Ark of Truth (2008) and Stargate: Continuum (2008). Known for its rich mythology, engaging characters, and blend of science fiction and adventure, the Stargate series has become a cornerstone of the sci-fi genre."
+    url_poster: https://theposterdb.com/api/assets/499532
+    imdb_list: https://www.imdb.com/list/ls028940786
+    collection_mode: hide
+    collection_order: custom
+    sync_mode: sync
+    visible_library: false
+    visible_home: false
+    visible_shared: false
   Star Trek:
     sort_title: "!055_Star Trek"
     summary: "The Star Trek movie and show collection is a seminal sci-fi franchise that began with the original television series created by Gene Roddenberry in 1966, following the adventures of the starship USS Enterprise and its crew, led by Captain James T. Kirk and Mr. Spock. The franchise expanded with numerous TV series, including The Next Generation, Deep Space Nine, Voyager, Enterprise, Discovery, Picard, and Strange New Worlds, each exploring new aspects of the Star Trek universe. The movie collection, starting with Star Trek: The Motion Picture (1979), includes films featuring the original cast, such as The Wrath of Khan and The Undiscovered Country, as well as The Next Generation crew in films like First Contact. The series was rebooted with J.J. Abrams' Star Trek (2009), introducing a new cast in an alternate timeline. Known for its optimistic vision of the future, exploration of complex social issues, and iconic characters, Star Trek has become a cornerstone of science fiction and a cultural phenomenon."
@@ -252,187 +274,6 @@ collections:
     tmdb_show: 138502 # X-Men '97
     collection_mode: hide
     collection_order: release
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-#################################### TV Show Genre Collections ###################################
-  Action:
-    sort_title: "!060_Action"
-    summary: "The action genre movie and show collection delivers high-energy entertainment with intense sequences and heroic feats. This collection features iconic films like Die Hard, Mad Max: Fury Road, and The Dark Knight, with standout performances from actors like Bruce Willis, Charlize Theron, and Christian Bale. Directors such as Michael Bay and Christopher Nolan have made significant contributions to the genre. On television, it includes popular shows like 24, Daredevil, and The Mandalorian, offering thrilling plots, dynamic characters, and explosive action scenes. This collection highlights a blend of adrenaline-pumping moments and compelling narratives, capturing the essence of action-packed storytelling."
-    url_poster: https://theposterdb.com/api/assets/499102
-    plex_search:
-      genre: Action
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Adventure:
-    sort_title: "!060_Adventure"
-    summary: "The adventure genre movie and show collection offers thrilling tales of exploration and excitement, capturing the spirit of daring escapades. This collection features iconic films like Indiana Jones, Pirates of the Caribbean, and Jurassic Park, with standout performances from actors like Harrison Ford, Johnny Depp, and Sam Neill. Directors such as Steven Spielberg and Gore Verbinski have significantly shaped the genre. On television, it includes popular shows like Avatar: The Last Airbender, The Mandalorian, and Doctor Who, presenting epic journeys, fantastical worlds, and heroic quests. This collection highlights a mix of action, discovery, and imaginative storytelling, embodying the essence of adventure."
-    url_poster: https://theposterdb.com/api/assets/499098
-    plex_search:
-      genre: Adventure
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Comedy:
-    sort_title: "!060_Comedy"
-    summary: "The comedy genre movie and show collection delivers laughter and entertainment through witty dialogue and humorous situations. This collection features beloved films like Groundhog Day, Superbad, and Anchorman, with standout performances from actors like Bill Murray, Jonah Hill, and Will Ferrell. Directors such as Judd Apatow and Wes Anderson have made significant contributions to the genre. On television, it includes popular shows like Friends, The Office, and Parks and Recreation, offering a mix of sitcoms, mockumentaries, and ensemble casts. This collection highlights a variety of comedic styles, from slapstick to satire, providing joy and amusement to audiences."
-    url_poster: https://theposterdb.com/api/assets/499103
-    plex_search:
-      genre: Comedy
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Documentary:
-    sort_title: "!060_Documentary"
-    summary: "The documentary genre movie and show collection presents real-life stories and factual content, offering insightful and educational experiences. This collection features acclaimed films like March of the Penguins, The Social Dilemma, and 13th, with powerful narratives and impactful messages. Directors such as Ken Burns and Alex Gibney have significantly contributed to the genre. On television, it includes popular series like Planet Earth, Making a Murderer, and Tiger King, providing in-depth looks at nature, crime, and unique personalities. This collection highlights a blend of investigative journalism, stunning visuals, and compelling storytelling, capturing the essence of the documentary genre."
-    url_poster: https://theposterdb.com/api/assets/499104
-    plex_search:
-      genre: Documentary
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Drama:
-    sort_title: "!060_Drama"
-    summary: "The drama genre movie and show collection delves into deep emotional narratives and complex character studies. This collection features acclaimed films like Forrest Gump, The Shawshank Redemption, and A Beautiful Mind, with standout performances from actors like Tom Hanks, Morgan Freeman, and Russell Crowe. Directors such as Steven Spielberg and Ron Howard have made notable contributions to the genre. On television, it includes compelling shows like The Sopranos, Breaking Bad, and This Is Us, offering intense storytelling, rich character development, and thought-provoking themes. This collection highlights the human experience, exploring relationships, personal struggles, and triumphs."
-    url_poster: https://theposterdb.com/api/assets/499105
-    plex_search:
-      genre: Drama
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Family:
-    sort_title: "!060_Family"
-    summary: "The family genre movie and show collection offers heartwarming and entertaining stories that appeal to all ages. This collection features beloved films like The Lion King, Toy Story, and Finding Nemo, with memorable performances from voice actors like Tom Hanks, Ellen DeGeneres, and James Earl Jones. Directors such as John Lasseter and Chris Columbus have significantly shaped the genre. On television, it includes popular shows like Full House, Avatar: The Last Airbender, and Bluey, presenting a mix of animated adventures, sitcoms, and educational content. This collection highlights themes of love, friendship, and growth, providing enjoyable and meaningful experiences for families."
-    url_poster: https://theposterdb.com/api/assets/499106
-    plex_search:
-      genre: Action
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Fantasy:
-    sort_title: "!060_Fantasy"
-    summary: "The fantasy genre movie and show collection transports viewers to magical worlds and extraordinary adventures, filled with mythical creatures and epic quests. This collection features iconic films like The Lord of the Rings, Harry Potter, and Pan's Labyrinth, with standout performances from actors like Elijah Wood, Daniel Radcliffe, and Ivana Baquero. Directors such as Peter Jackson and Guillermo del Toro have made significant contributions to the genre. On television, it includes beloved shows like Game of Thrones, The Witcher, and Avatar: The Last Airbender, offering rich lore, complex characters, and enchanting landscapes. This collection highlights a blend of heroism, magic, and imaginative storytelling, capturing the essence of fantasy."
-    url_poster: https://theposterdb.com/api/assets/499099
-    plex_search:
-      genre: Fantasy
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  History:
-    sort_title: "!060_History"
-    summary: "The history genre movie and show collection brings past events to life, offering rich and immersive portrayals of significant moments and figures. This collection features acclaimed films like Schindler's List, Braveheart, and 12 Years a Slave, with powerful performances from actors like Liam Neeson, Mel Gibson, and Chiwetel Ejiofor. Directors such as Steven Spielberg and Ridley Scott have left a lasting impact on the genre. On television, it includes compelling shows like The Crown, Band of Brothers, and Vikings, providing detailed depictions of historical periods, wars, and royalty. This collection highlights a mix of epic narratives, accurate portrayals, and dramatic storytelling, capturing the essence of history."
-    url_poster: https://theposterdb.com/api/assets/499107
-    plex_search:
-      genre: History
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Horror:
-    sort_title: "!060_Horror"
-    summary: "The horror genre movie and show collection plunges into the realm of fear and the supernatural, offering spine-chilling experiences and dark tales. This collection features iconic films like The Exorcist, A Nightmare on Elm Street, and Get Out, with standout performances from actors like Linda Blair, Robert Englund, and Daniel Kaluuya. Directors such as John Carpenter and Jordan Peele have made significant contributions to the genre. On television, it includes terrifying shows like American Horror Story, The Haunting of Hill House, and Stranger Things, blending psychological horror, paranormal activity, and eerie atmospheres. This collection highlights a mix of classic scares, innovative storytelling, and unsettling themes, embodying the essence of horror."
-    url_poster: https://theposterdb.com/api/assets/499108
-    plex_search:
-      genre: Horror
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Mystery:
-    sort_title: "!060_Mystery"
-    summary: "The mystery genre movie and show collection delves into the world of suspense and intrigue, captivating audiences with puzzling plots and unexpected twists. This collection features iconic films like Gone Girl, The Girl with the Dragon Tattoo, and Sherlock Holmes, with standout performances from actors like Ben Affleck, Rooney Mara, and Robert Downey Jr. Directors such as David Fincher and Alfred Hitchcock have left a significant mark on the genre. On television, it includes gripping shows like Sherlock, True Detective, and Twin Peaks, offering a mix of complex investigations, psychological depth, and atmospheric storytelling. This collection highlights the thrill of uncovering secrets, solving crimes, and exploring the unknown."
-    url_poster: https://theposterdb.com/api/assets/499100
-    plex_search:
-      genre: Mystery
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Romance:
-    sort_title: "!060_Romance"
-    summary: "The romance genre movie and show collection captures the essence of love and emotional connections, offering heartwarming and poignant stories. This collection features beloved films like Pride and Prejudice, The Notebook, and La La Land, with memorable performances from actors like Keira Knightley, Ryan Gosling, and Emma Stone. Directors such as Richard Linklater and Nora Ephron have significantly shaped the genre. On television, it includes popular shows like Outlander, Bridgerton, and Jane the Virgin, presenting a mix of historical romance, contemporary love stories, and whimsical narratives. This collection highlights the power of love, the complexities of relationships, and the enduring appeal of romantic storytelling."
-    url_poster: https://theposterdb.com/api/assets/499109
-    plex_search:
-      genre: Romance
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Science Fiction:
-    sort_title: "!060_Science Fiction"
-    summary: "The science fiction genre movie and show collection explores imaginative and futuristic worlds, blending advanced technology with profound themes. This collection features iconic films like Blade Runner, The Matrix, and Interstellar, with standout performances from actors like Harrison Ford, Keanu Reeves, and Matthew McConaughey. Directors such as Ridley Scott and Christopher Nolan have made significant contributions to the genre. On television, it includes groundbreaking shows like Star Trek, Black Mirror, and Stranger Things, offering a mix of speculative fiction, dystopian narratives, and thought-provoking scenarios. This collection highlights a blend of cutting-edge visuals, innovative storytelling, and philosophical questions, capturing the essence of science fiction."
-    url_poster: https://theposterdb.com/api/assets/499110
-    plex_search:
-      genre: Science Fiction
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Thriller:
-    sort_title: "!060_Thriller"
-    summary: "The thriller genre movie and show collection offers a gripping and suspenseful experience filled with tension and unexpected twists. This collection features iconic films like Se7en, The Silence of the Lambs, and Inception, with standout performances from actors like Brad Pitt, Jodie Foster, and Leonardo DiCaprio. Directors such as Alfred Hitchcock and Christopher Nolan are renowned for their contributions to the genre. On television, it includes captivating shows like Breaking Bad, True Detective, and Stranger Things, blending psychological depth, crime, and mystery. This collection highlights a mix of psychological intrigue, intense action, and complex characters, keeping viewers on the edge of their seats."
-    url_poster: https://theposterdb.com/api/assets/499101
-    plex_search:
-      genre: Thriller
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  War:
-    sort_title: "!060_War"
-    summary: "The war genre movie and show collection delves into the intense and poignant stories of conflict and heroism. This collection features acclaimed films like Saving Private Ryan, Apocalypse Now, and 1917, with powerful performances from actors like Tom Hanks, Martin Sheen, and George MacKay. Directors such as Steven Spielberg and Francis Ford Coppola have significantly contributed to the genre. On television, it includes impactful shows like Band of Brothers, MASH*, and The Pacific, offering a mix of dramatic battles, personal struggles, and historical perspectives. This collection highlights the harrowing realities of war, the bravery of soldiers, and the profound impact of these conflicts on humanity."
-    url_poster: https://theposterdb.com/api/assets/499111
-    plex_search:
-      genre: War
-    collection_mode: hide
-    smart_label: originally_available.desc
-    sync_mode: sync
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-  Western:
-    sort_title: "!060_Western"
-    summary: "The western genre movie and show collection captures the rugged spirit and adventurous tales of the American frontier. This collection features classic films like The Good, the Bad and the Ugly, True Grit, and Unforgiven, showcasing iconic performances from actors like Clint Eastwood, John Wayne, and Jeff Bridges. Directors such as Sergio Leone and John Ford have left a lasting impact on the genre. On television, it includes timeless shows like Bonanza, Gunsmoke, and Deadwood, reflecting the genre's enduring popularity and evolving storytelling styles. This collection highlights a mix of dramatic gunfights, sweeping landscapes, and complex characters, embodying the essence of the western genre."
-    url_poster: https://theposterdb.com/api/assets/499097
-    plex_search:
-      genre: Western
-    collection_mode: hide
-    smart_label: originally_available.desc
     sync_mode: sync
     visible_library: false
     visible_home: false
