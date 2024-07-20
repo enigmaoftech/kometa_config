@@ -117,6 +117,26 @@ libraries:
         mass_imdb_parental_labels: none               # Apply all parental labels with a value of None, Mild, Moderate, or Severe to match IMDb parental guide
         # mass_poster_update: tmdb                      # Resets posters to tmdb, plex, locked, unlock which is useful to remove all overlays when running with -r -op
 
+
+##################################################################################################
+####################################### Audiobook Library ########################################
+##################################################################################################
+  Audiobooks:                                         # Must match a library name in your Plex
+    report_path: config/reports/audiobook_report.yml  # Sets the path for the missing items in the library
+    remove_overlays: false                            # Set to true if you want to remove overlays
+    reapply_overlays: false                           # Forces overlays to be re-applied and can cause image bulk, typically leave this set to false
+    collection_files:
+      - file: config/metadata/audiobooks.yml    
+  # Library Operations Configuration
+    operations:
+      - schedule: daily
+        split_duplicates: false                       # Splits all duplicate movies/shows found in this library
+        assets_for_all: false                         # Search in assets for images for every item in your library
+        delete_collections:
+          configured: false                           # False - Collection must be an Unconfigured Collection to be deleted (collection is not in the config file of the specific Kometa run).
+          managed: false                              # False - Collection must be an Unmanaged Collection to be deleted (the collection does not have the Kometa label)
+          less: 99999                                 # Effectively all collections regardless of the number of items in the collection
+
   
 ##################################################################################################
 ######################################## Global Settings #########################################
